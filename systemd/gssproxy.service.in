@@ -54,7 +54,6 @@ PrivateMounts=yes
 SystemCallFilter=@system-service
 SystemCallErrorNumber=EPERM
 SystemCallArchitectures=native
-NoNewPrivileges=yes
 CapabilityBoundingSet=CAP_DAC_OVERRIDE
 IPAddressDeny=any
 UMask=0177
